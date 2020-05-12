@@ -13,7 +13,7 @@ end
 
 end
 
-emails1 = "codecode.com, food.org, netflix.com"
+#emails1 = "codecode.com, food.org, netflix.com"
 parser1 = EmailAddressParser.new(emails1)
 parser1.parse 
 
