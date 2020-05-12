@@ -8,6 +8,7 @@ end
 def parse
   puts splitEmail = emails.split.collect do |address| 
     address.split(',')
+  end
   returnArray = splitEmail.flatten.uniq
   returnArray
 end
